@@ -21,6 +21,10 @@ ISA Floppy Disk and Serial Controller card provides one floppy disk interface su
   * The ROM is configured using a DIP switch: It can be enabled or disabled; the /WR line can be disabled; the address can be selected from 0C0000h to 0EE000h in 8 KiB increments.
 * All functions above are optional (can be either installed or not)
 
+## Firmware / BIOS Extension
+
+[Multi-Floppy BIOS Extension](https://github.com/skiselev/floppy_bios)
+
 ## Hardware Documentation
 
 ### Schematic and PCB Layout
