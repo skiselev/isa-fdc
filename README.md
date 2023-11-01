@@ -65,28 +65,28 @@ Note: One and only one of SW1.5 - SW1.8 switches should be ON.
 
 SW2.3 | SW2.4 | SW2.5 | SW2.6 | SW2.7 | Start Address | End Address | SW2.3 | SW2.4 | SW2.5 | SW2.6 | SW2.7 | Start Address | End Address
 ----- | ----- | ----- | ----- | ----- | ------------- | ----------- | ----- | ----- | ----- | ----- | ----- | ------------- | -----------
-ON    | ON    | ON    | ON    | ON    | 0xC0000*      | 0xC1FFF     | OFF   | ON    | ON    | ON    | ON    | 0xE0000**     | 0xE1FFF
-ON    | ON    | ON    | ON    | OFF   | 0xC2000*      | 0xC3FFF     | OFF   | ON    | ON    | ON    | OFF   | 0xE2000**     | 0xE3FFF
-ON    | ON    | ON    | OFF   | ON    | 0xC4000*      | 0xC5FFF     | OFF   | ON    | ON    | OFF   | ON    | 0xE4000**     | 0xE5FFF
-ON    | ON    | ON    | OFF   | OFF   | 0xC6000*      | 0xC7FFF     | OFF   | ON    | ON    | OFF   | OFF   | 0xE6000**     | 0xE7FFF
-ON    | ON    | OFF   | ON    | ON    | 0xC8000       | 0xC9FFF     | OFF   | ON    | OFF   | ON    | ON    | 0xE8000**     | 0xE9FFF
-ON    | ON    | OFF   | ON    | OFF   | 0xCA000       | 0xCBFFF     | OFF   | ON    | OFF   | ON    | OFF   | 0xEA000**     | 0xEBFFF
-ON    | ON    | OFF   | OFF   | ON    | 0xCC000       | 0xCDFFF     | OFF   | ON    | OFF   | OFF   | ON    | 0xEC000**     | 0xEDFFF
-ON    | ON    | OFF   | OFF   | OFF   | 0xCE000       | 0xCFFFF     | OFF   | ON    | OFF   | OFF   | OFF   | 0xEE000**     | 0xEFFFF
-ON    | OFF   | ON    | ON    | ON    | 0xD0000       | 0xD1FFF     | OFF   | OFF   | ON    | ON    | ON    | 0xF0000***    | 0xF1FFF
-ON    | OFF   | ON    | ON    | OFF   | 0xD2000       | 0xD3FFF     | OFF   | OFF   | ON    | ON    | OFF   | 0xF2000***    | 0xF3FFF
-ON    | OFF   | ON    | OFF   | ON    | 0xD4000       | 0xD5FFF     | OFF   | OFF   | ON    | OFF   | ON    | 0xF4000***    | 0xF5FFF
-ON    | OFF   | ON    | OFF   | OFF   | 0xD6000       | 0xD7FFF     | OFF   | OFF   | ON    | OFF   | OFF   | 0xF6000***    | 0xF7FFF
-ON    | OFF   | OFF   | ON    | ON    | 0xD8000       | 0xD9FFF     | OFF   | OFF   | OFF   | ON    | ON    | 0xF8000***    | 0xF9FFF
-ON    | OFF   | OFF   | ON    | OFF   | 0xDA000       | 0xDBFFF     | OFF   | OFF   | OFF   | ON    | OFF   | 0xFA000***    | 0xFBFFF
-ON    | OFF   | OFF   | OFF   | ON    | 0xDC000       | 0xDDFFF     | OFF   | OFF   | OFF   | OFF   | ON    | 0xFC000***    | 0xFDFFF
-ON    | OFF   | OFF   | OFF   | OFF   | 0xDE000       | 0xDFFFF     | OFF   | OFF   | OFF   | OFF   | OFF   | 0xFE000***    | 0xFFFFF
+ON    | ON    | ON    | ON    | ON    | 0xC0000\*     | 0xC1FFF     | OFF   | ON    | ON    | ON    | ON    | 0xE0000\*\*   | 0xE1FFF
+ON    | ON    | ON    | ON    | OFF   | 0xC2000\*     | 0xC3FFF     | OFF   | ON    | ON    | ON    | OFF   | 0xE2000\*\*   | 0xE3FFF
+ON    | ON    | ON    | OFF   | ON    | 0xC4000\*     | 0xC5FFF     | OFF   | ON    | ON    | OFF   | ON    | 0xE4000\*\*   | 0xE5FFF
+ON    | ON    | ON    | OFF   | OFF   | 0xC6000\*     | 0xC7FFF     | OFF   | ON    | ON    | OFF   | OFF   | 0xE6000\*\*   | 0xE7FFF
+ON    | ON    | OFF   | ON    | ON    | 0xC8000       | 0xC9FFF     | OFF   | ON    | OFF   | ON    | ON    | 0xE8000\*\*   | 0xE9FFF
+ON    | ON    | OFF   | ON    | OFF   | 0xCA000       | 0xCBFFF     | OFF   | ON    | OFF   | ON    | OFF   | 0xEA000\*\*   | 0xEBFFF
+ON    | ON    | OFF   | OFF   | ON    | 0xCC000       | 0xCDFFF     | OFF   | ON    | OFF   | OFF   | ON    | 0xEC000\*\*   | 0xEDFFF
+ON    | ON    | OFF   | OFF   | OFF   | 0xCE000       | 0xCFFFF     | OFF   | ON    | OFF   | OFF   | OFF   | 0xEE000\*\*   | 0xEFFFF
+ON    | OFF   | ON    | ON    | ON    | 0xD0000       | 0xD1FFF     | OFF   | OFF   | ON    | ON    | ON    | 0xF0000\*\*\* | 0xF1FFF
+ON    | OFF   | ON    | ON    | OFF   | 0xD2000       | 0xD3FFF     | OFF   | OFF   | ON    | ON    | OFF   | 0xF2000\*\*\* | 0xF3FFF
+ON    | OFF   | ON    | OFF   | ON    | 0xD4000       | 0xD5FFF     | OFF   | OFF   | ON    | OFF   | ON    | 0xF4000\*\*\* | 0xF5FFF
+ON    | OFF   | ON    | OFF   | OFF   | 0xD6000       | 0xD7FFF     | OFF   | OFF   | ON    | OFF   | OFF   | 0xF6000\*\*\* | 0xF7FFF
+ON    | OFF   | OFF   | ON    | ON    | 0xD8000       | 0xD9FFF     | OFF   | OFF   | OFF   | ON    | ON    | 0xF8000\*\*\* | 0xF9FFF
+ON    | OFF   | OFF   | ON    | OFF   | 0xDA000       | 0xDBFFF     | OFF   | OFF   | OFF   | ON    | OFF   | 0xFA000\*\*\* | 0xFBFFF
+ON    | OFF   | OFF   | OFF   | ON    | 0xDC000       | 0xDDFFF     | OFF   | OFF   | OFF   | OFF   | ON    | 0xFC000\*\*\* | 0xFDFFF
+ON    | OFF   | OFF   | OFF   | OFF   | 0xDE000       | 0xDFFFF     | OFF   | OFF   | OFF   | OFF   | OFF   | 0xFE000\*\*\* | 0xFFFFF
 
 Notes:
 
-* - Address range conflicts with EGA / VGA BIOS.
-** - 0xE0000 - 0xEFFFF address range is not available on IBM AT - Reserved for on-board BIOS extension ROMs
-*** - 0xF0000 - 0xFFFFF address range is not available on IBM PC, IBM XT, and IBM AT - Used system BIOS or reserved for on-board BIOS extension ROMs
+* \* - Address range conflicts with EGA / VGA BIOS.
+* \*\* - 0xE0000 - 0xEFFFF address range is not available on IBM AT - Reserved for on-board BIOS extension ROMs
+* \*\*\* - 0xF0000 - 0xFFFFF address range is not available on IBM PC, IBM XT, and IBM AT - Used system BIOS or reserved for on-board BIOS extension ROMs
 
 When setting ROM address make sure it doesn't conflict with system BIOS and with BIOS extension ROMs of other cards installed in the system.
 
