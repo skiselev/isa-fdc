@@ -1,0 +1,81 @@
+eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: 11/27/2012 11:56:56 PM
+
+#Cmp ( order = Reference )
+| BUS1       BUSPC_DEV   
+| C1         0.1uF       
+| C2         0.1uF       
+| C3         0.1uF       
+| C4         0.1uF       
+| C5         0.1uF       
+| C6         0.1uF       
+| C7         0.1uF       
+| C8         0.1uF       
+| C9         0.1uF       
+| C10        0.1uF       
+| C11        10uF        
+| C12        10uF        
+| C13        10uF        
+| C14        10uF        
+| C15        22pF        
+| C16        22pF        
+| C17        4.7nF       
+| HOLE1      CONN_1      
+| HOLE2      CONN_1      
+| JP1        PS/2 FLOPPY 
+| P1         FLOPPY      
+| P2         SERIAL      
+| RR1        10k         
+| RR2        1k          
+| SW1        UART_CONFIG 
+| SW2        ROM_CONFIG  
+| U1         82077AA     
+| U2         16550-PLCC  
+| U3         GD75232     
+| U4         28C64       
+| U5         74LS688     
+| U6         74ALS138    
+| U7         74ALS138    
+| U8         1.8432MHz   
+| X1         24MHz       
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.1uF        C1        
+| 0.1uF        C2        
+| 0.1uF        C3        
+| 0.1uF        C4        
+| 0.1uF        C5        
+| 0.1uF        C6        
+| 0.1uF        C7        
+| 0.1uF        C8        
+| 0.1uF        C9        
+| 0.1uF        C10       
+| 1.8432MHz    U8        
+| 10k          RR1       
+| 10uF         C11       
+| 10uF         C12       
+| 10uF         C13       
+| 10uF         C14       
+| 16550-PLCC   U2        
+| 1k           RR2       
+| 22pF         C15       
+| 22pF         C16       
+| 24MHz        X1        
+| 28C64        U4        
+| 4.7nF        C17       
+| 74ALS138     U6        
+| 74ALS138     U7        
+| 74LS688      U5        
+| 82077AA      U1        
+| BUSPC_DEV    BUS1      
+| CONN_1       HOLE1     
+| CONN_1       HOLE2     
+| FLOPPY       P1        
+| GD75232      U3        
+| PS/2 FLOPPY  JP1       
+| ROM_CONFIG   SW2       
+| SERIAL       P2        
+| UART_CONFIG  SW1       
+#End Cmp
+
+#End List

@@ -1,0 +1,577 @@
+# EESchema Netlist Version 1.1 created  11/27/2012 3:29:06 PM
+(
+ ( /508DEF42 Conn_Bus_ISA8 BUS1 BUSPC_DEV
+  ( 1 GND )
+  ( 2 /RESETDRV )
+  ( 3 VCC )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 /DRQ2 )
+  ( 7 VSS )
+  ( 8 ? )
+  ( 9 VDD )
+  ( 10 GND )
+  ( 11 /~MEMW )
+  ( 12 /~MEMR )
+  ( 13 /~IOW )
+  ( 14 /~IOR )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 ? )
+  ( 21 /IRQ7 )
+  ( 22 /IRQ6 )
+  ( 23 /IRQ5 )
+  ( 24 /IRQ4 )
+  ( 25 /IRQ3 )
+  ( 26 /~DACK2 )
+  ( 27 /TC )
+  ( 28 ? )
+  ( 29 VCC )
+  ( 30 ? )
+  ( 31 GND )
+  ( 32 ? )
+  ( 33 /D7 )
+  ( 34 /D6 )
+  ( 35 /D5 )
+  ( 36 /D4 )
+  ( 37 /D3 )
+  ( 38 /D2 )
+  ( 39 /D1 )
+  ( 40 /D0 )
+  ( 41 ? )
+  ( 42 /AEN )
+  ( 43 /A19 )
+  ( 44 /A18 )
+  ( 45 /A17 )
+  ( 46 /A16 )
+  ( 47 /A15 )
+  ( 48 /A14 )
+  ( 49 /A13 )
+  ( 50 /A12 )
+  ( 51 /A11 )
+  ( 52 /A10 )
+  ( 53 /A9 )
+  ( 54 /A8 )
+  ( 55 /A7 )
+  ( 56 /A6 )
+  ( 57 /A5 )
+  ( 58 /A4 )
+  ( 59 /A3 )
+  ( 60 /A2 )
+  ( 61 /A1 )
+  ( 62 /A0 )
+ )
+ ( /4C69F1DA Cap_Cer_504 C1 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4C69F1D9 Cap_Cer_504 C2 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4C69F1D8 Cap_Cer_504 C3 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4C69F1D7 Cap_Cer_504 C4 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4C69F1D6 Cap_Cer_504 C5 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4C69F1EE Cap_Cer_504 C6 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4C69F1ED Cap_Cer_504 C7 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /508E0BF2 Cap_Cer_504 C8 0.1uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /501B5E92 Cap_Cer_504 C9 0.1uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /501B5F25 Cap_Cer_504 C10 0.1uF
+  ( 1 GND )
+  ( 2 VSS )
+ )
+ ( /4D4252FF Cap_Tant_504 C11 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4EF13BF8 Cap_Tant_504 C12 10uF
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /501B62FE Cap_Tant_504 C13 10uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /50B31281 Cap_Tant_504 C14 10uF
+  ( 1 GND )
+  ( 2 VSS )
+ )
+ ( /501A26C5 Cap_Cer_504 C15 22pF
+  ( 1 N-000136 )
+  ( 2 GND )
+ )
+ ( /501A26C4 Cap_Cer_504 C16 22pF
+  ( 1 N-000088 )
+  ( 2 GND )
+ )
+ ( /501A26C6 Cap_Cer_504 C17 4.7nF
+  ( 1 N-000080 )
+  ( 2 N-000074 )
+ )
+ ( /501A264D Hole_3mm HOLE1 CONN_1
+  ( 1 GND )
+ )
+ ( /501A264E Hole_3mm HOLE2 CONN_1
+  ( 1 GND )
+ )
+ ( /509370D9 PIN_ARRAY_2X1_NOKEY JP1 PS/2_FLOPPY
+  ( 1 VCC )
+  ( 2 /FLOPPY_VCC )
+ )
+ ( /501A26B8 PIN_ARRAY_17x2 P1 FLOPPY
+  ( 1 GND )
+  ( 2 /DENSL )
+  ( 3 /FLOPPY_VCC )
+  ( 4 ? )
+  ( 5 GND )
+  ( 6 N-000120 )
+  ( 7 GND )
+  ( 8 /INDEX )
+  ( 9 ? )
+  ( 10 /MEA )
+  ( 11 GND )
+  ( 12 /DSB )
+  ( 13 GND )
+  ( 14 /DSA )
+  ( 15 GND )
+  ( 16 /MEB )
+  ( 17 ? )
+  ( 18 /DIR )
+  ( 19 GND )
+  ( 20 /STEP )
+  ( 21 GND )
+  ( 22 /WDATA )
+  ( 23 GND )
+  ( 24 /WE )
+  ( 25 GND )
+  ( 26 /TRK00 )
+  ( 27 ? )
+  ( 28 /WP )
+  ( 29 GND )
+  ( 30 /RDATA )
+  ( 31 GND )
+  ( 32 /HDSEL )
+  ( 33 ? )
+  ( 34 /DSKCG )
+ )
+ ( /501A26B6 Conn_Dsub_DE9M P2 SERIAL
+  ( 1 /DCD )
+  ( 2 /RX )
+  ( 3 /TX )
+  ( 4 /DTR )
+  ( 5 GND )
+  ( 6 /DSR )
+  ( 7 /RTS )
+  ( 8 /CTS )
+  ( 9 /RI )
+ )
+ ( /508DF3A5 SIL-10 RR1 10k
+  ( 1 VCC )
+  ( 2 /~ROM_CS )
+  ( 3 /~ROMW )
+  ( 4 N-000152 )
+  ( 5 N-000042 )
+  ( 6 N-000151 )
+  ( 7 N-000041 )
+  ( 8 N-000044 )
+  ( 9 ? )
+  ( 10 /RDY/~BUSY )
+ )
+ ( /501A26C0 SIL-6 RR2 1k
+  ( 1 VCC )
+  ( 2 /INDEX )
+  ( 3 /TRK00 )
+  ( 4 /WP )
+  ( 5 /RDATA )
+  ( 6 /DSKCG )
+ )
+ ( /501B3601 DIP16_300 SW1 UART_CONFIG
+  ( 1 /IRQ3 )
+  ( 2 /IRQ4 )
+  ( 3 /IRQ5 )
+  ( 4 /IRQ7 )
+  ( 5 /0x2E8 )
+  ( 6 /0x3E8 )
+  ( 7 /0x2F8 )
+  ( 8 /0x3F8 )
+  ( 9 /~UART_CS )
+  ( 10 /~UART_CS )
+  ( 11 /~UART_CS )
+  ( 12 /~UART_CS )
+  ( 13 /UART_IRQ )
+  ( 14 /UART_IRQ )
+  ( 15 /UART_IRQ )
+  ( 16 /UART_IRQ )
+ )
+ ( /508DF25E DIP16_300 SW2 ROM_CONFIG
+  ( 1 /~ROM_CS )
+  ( 2 /~ROMW )
+  ( 3 N-000152 )
+  ( 4 N-000042 )
+  ( 5 N-000151 )
+  ( 6 N-000041 )
+  ( 7 N-000044 )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 GND )
+  ( 11 GND )
+  ( 12 GND )
+  ( 13 GND )
+  ( 14 GND )
+  ( 15 /~MEMW )
+  ( 16 /~ROM_CS_IN )
+ )
+ ( /501A26B7 PLCC68_TH U1 82077AA
+  ( 1 /WP )
+  ( 2 /TRK00 )
+  ( 3 /~DACK2 )
+  ( 4 /~IOR )
+  ( 5 /~IOW )
+  ( 6 /~FDC_CS )
+  ( 7 /A0 )
+  ( 8 /A1 )
+  ( 9 GND )
+  ( 10 /A2 )
+  ( 11 /D0 )
+  ( 12 GND )
+  ( 13 /D1 )
+  ( 14 /D2 )
+  ( 15 /D3 )
+  ( 16 GND )
+  ( 17 /D4 )
+  ( 18 VCC )
+  ( 19 /D5 )
+  ( 20 /D6 )
+  ( 21 GND )
+  ( 22 /D7 )
+  ( 23 /IRQ6 )
+  ( 24 /DRQ2 )
+  ( 25 /TC )
+  ( 26 /INDEX )
+  ( 27 VCC )
+  ( 28 N-000120 )
+  ( 29 ? )
+  ( 30 GND )
+  ( 31 /DSKCG )
+  ( 32 /RESETDRV )
+  ( 33 N-000136 )
+  ( 34 N-000088 )
+  ( 35 GND )
+  ( 36 GND )
+  ( 37 N-000074 )
+  ( 38 N-000080 )
+  ( 39 VCC )
+  ( 40 VCC )
+  ( 41 /RDATA )
+  ( 42 ? )
+  ( 43 ? )
+  ( 44 ? )
+  ( 45 GND )
+  ( 46 VCC )
+  ( 47 ? )
+  ( 48 ? )
+  ( 49 /DENSL )
+  ( 50 GND )
+  ( 51 /HDSEL )
+  ( 52 /WE )
+  ( 53 /WDATA )
+  ( 54 GND )
+  ( 55 /STEP )
+  ( 56 /DIR )
+  ( 57 /MEA )
+  ( 58 /DSA )
+  ( 59 GND )
+  ( 60 VCC )
+  ( 61 /MEB )
+  ( 62 /DSB )
+  ( 63 ? )
+  ( 64 ? )
+  ( 65 GND )
+  ( 66 ? )
+  ( 67 ? )
+  ( 68 VCC )
+ )
+ ( /5031E8C2 PLCC44_TH U2 16550-PLCC
+  ( 1 ? )
+  ( 2 /D0 )
+  ( 3 /D1 )
+  ( 4 /D2 )
+  ( 5 /D3 )
+  ( 6 /D4 )
+  ( 7 /D5 )
+  ( 8 /D6 )
+  ( 9 /D7 )
+  ( 10 N-000011 )
+  ( 11 /SIN )
+  ( 12 ? )
+  ( 13 /SOUT )
+  ( 14 VCC )
+  ( 15 VCC )
+  ( 16 /~UART_CS )
+  ( 17 N-000011 )
+  ( 18 N-000134 )
+  ( 19 ? )
+  ( 20 /~IOW )
+  ( 21 GND )
+  ( 22 GND )
+  ( 23 ? )
+  ( 24 /~IOR )
+  ( 25 GND )
+  ( 26 ? )
+  ( 27 ? )
+  ( 28 GND )
+  ( 29 /A2 )
+  ( 30 /A1 )
+  ( 31 /A0 )
+  ( 32 ? )
+  ( 33 /UART_IRQ )
+  ( 34 ? )
+  ( 35 ? )
+  ( 36 /~RTS )
+  ( 37 /~DTR )
+  ( 38 ? )
+  ( 39 /RESETDRV )
+  ( 40 /~CTS )
+  ( 41 /~DSR )
+  ( 42 /~DCD )
+  ( 43 /~RI )
+  ( 44 VCC )
+ )
+ ( /501A26B0 DIP20_300 U3 GD75232
+  ( 1 VDD )
+  ( 2 /DCD )
+  ( 3 /DSR )
+  ( 4 /RX )
+  ( 5 /RTS )
+  ( 6 /TX )
+  ( 7 /CTS )
+  ( 8 /DTR )
+  ( 9 /RI )
+  ( 10 VSS )
+  ( 11 GND )
+  ( 12 /~RI )
+  ( 13 /~DTR )
+  ( 14 /~CTS )
+  ( 15 /SOUT )
+  ( 16 /~RTS )
+  ( 17 /SIN )
+  ( 18 /~DSR )
+  ( 19 /~DCD )
+  ( 20 VCC )
+ )
+ ( /509149DC DIP28_600 U4 28C64
+  ( 1 /RDY/~BUSY )
+  ( 2 /A12 )
+  ( 3 /A7 )
+  ( 4 /A6 )
+  ( 5 /A5 )
+  ( 6 /A4 )
+  ( 7 /A3 )
+  ( 8 /A2 )
+  ( 9 /A1 )
+  ( 10 /A0 )
+  ( 11 /D0 )
+  ( 12 /D1 )
+  ( 13 /D2 )
+  ( 14 GND )
+  ( 15 /D3 )
+  ( 16 /D4 )
+  ( 17 /D5 )
+  ( 18 /D6 )
+  ( 19 /D7 )
+  ( 20 /~ROM_CS )
+  ( 21 /A10 )
+  ( 22 /~MEMR )
+  ( 23 /A11 )
+  ( 24 /A9 )
+  ( 25 /A8 )
+  ( 26 ? )
+  ( 27 /~ROMW )
+  ( 28 VCC )
+ )
+ ( /508DF197 DIP20_300 U5 74LS688
+  ( 1 GND )
+  ( 2 /A19 )
+  ( 3 VCC )
+  ( 4 /A18 )
+  ( 5 VCC )
+  ( 6 /A17 )
+  ( 7 N-000152 )
+  ( 8 /A16 )
+  ( 9 N-000042 )
+  ( 10 GND )
+  ( 11 /A15 )
+  ( 12 N-000151 )
+  ( 13 /A14 )
+  ( 14 N-000041 )
+  ( 15 /A13 )
+  ( 16 N-000044 )
+  ( 17 GND )
+  ( 18 GND )
+  ( 19 /~ROM_CS_IN )
+  ( 20 VCC )
+ )
+ ( /5057FBFD DIP16_300 U6 74ALS138
+  ( 1 /A6 )
+  ( 2 /A7 )
+  ( 3 /A9 )
+  ( 4 GND )
+  ( 5 GND )
+  ( 6 VCC )
+  ( 7 N-000067 )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 VCC )
+ )
+ ( /5057FBEC DIP16_300 U7 74ALS138
+  ( 1 /A8 )
+  ( 2 /A4 )
+  ( 3 /A3 )
+  ( 4 /AEN )
+  ( 5 N-000067 )
+  ( 6 /A5 )
+  ( 7 /0x3F8 )
+  ( 8 GND )
+  ( 9 /0x2F8 )
+  ( 10 /0x3E8 )
+  ( 11 /0x2E8 )
+  ( 12 /~FDC_CS )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 VCC )
+ )
+ ( /501A26B5 DIP14_300 U8 1.8432MHz
+  ( 7 GND )
+  ( 8 N-000134 )
+  ( 14 VCC )
+ )
+ ( /501A26C8 Crystal_HC-49U_Vert X1 24MHz
+  ( 1 N-000136 )
+  ( 2 N-000088 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ CP*
+ SM*
+$endlist
+$component C12
+ CP*
+ SM*
+$endlist
+$component C13
+ CP*
+ SM*
+$endlist
+$component C14
+ CP*
+ SM*
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C17
+ SM*
+ C?
+ C1-1
+$endlist
+$component P2
+ DB9*
+$endlist
+$component U6
+ DIP-16__300
+$endlist
+$component U7
+ DIP-16__300
+$endlist
+$endfootprintlist
+}

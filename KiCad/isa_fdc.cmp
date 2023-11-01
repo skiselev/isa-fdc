@@ -1,0 +1,255 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 11/27/2012 3:29:06 PM
+
+BeginCmp
+TimeStamp = /508DEF42;
+Reference = BUS1;
+ValeurCmp = BUSPC_DEV;
+IdModule  = Conn_Bus_ISA8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F1DA;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F1D9;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F1D8;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F1D7;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F1D6;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F1EE;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4C69F1ED;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /508E0BF2;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /501B5E92;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /501B5F25;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4D4252FF;
+Reference = C11;
+ValeurCmp = 10uF;
+IdModule  = Cap_Tant_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /4EF13BF8;
+Reference = C12;
+ValeurCmp = 10uF;
+IdModule  = Cap_Tant_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /501B62FE;
+Reference = C13;
+ValeurCmp = 10uF;
+IdModule  = Cap_Tant_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B31281;
+Reference = C14;
+ValeurCmp = 10uF;
+IdModule  = Cap_Tant_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26C5;
+Reference = C15;
+ValeurCmp = 22pF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26C4;
+Reference = C16;
+ValeurCmp = 22pF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26C6;
+Reference = C17;
+ValeurCmp = 4.7nF;
+IdModule  = Cap_Cer_504;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A264D;
+Reference = HOLE1;
+ValeurCmp = CONN_1;
+IdModule  = Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A264E;
+Reference = HOLE2;
+ValeurCmp = CONN_1;
+IdModule  = Hole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /509370D9;
+Reference = JP1;
+ValeurCmp = PS/2_FLOPPY;
+IdModule  = PIN_ARRAY_2X1_NOKEY;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26B8;
+Reference = P1;
+ValeurCmp = FLOPPY;
+IdModule  = PIN_ARRAY_17x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26B6;
+Reference = P2;
+ValeurCmp = SERIAL;
+IdModule  = Conn_Dsub_DE9M;
+EndCmp
+
+BeginCmp
+TimeStamp = /508DF3A5;
+Reference = RR1;
+ValeurCmp = 10k;
+IdModule  = SIL-10;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26C0;
+Reference = RR2;
+ValeurCmp = 1k;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /501B3601;
+Reference = SW1;
+ValeurCmp = UART_CONFIG;
+IdModule  = DIP16_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /508DF25E;
+Reference = SW2;
+ValeurCmp = ROM_CONFIG;
+IdModule  = DIP16_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26B7;
+Reference = U1;
+ValeurCmp = 82077AA;
+IdModule  = PLCC68_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5031E8C2;
+Reference = U2;
+ValeurCmp = 16550-PLCC;
+IdModule  = PLCC44_TH;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26B0;
+Reference = U3;
+ValeurCmp = GD75232;
+IdModule  = DIP20_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /509149DC;
+Reference = U4;
+ValeurCmp = 28C64;
+IdModule  = DIP28_600;
+EndCmp
+
+BeginCmp
+TimeStamp = /508DF197;
+Reference = U5;
+ValeurCmp = 74LS688;
+IdModule  = DIP20_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5057FBFD;
+Reference = U6;
+ValeurCmp = 74ALS138;
+IdModule  = DIP16_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5057FBEC;
+Reference = U7;
+ValeurCmp = 74ALS138;
+IdModule  = DIP16_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26B5;
+Reference = U8;
+ValeurCmp = 1.8432MHz;
+IdModule  = DIP14_300;
+EndCmp
+
+BeginCmp
+TimeStamp = /501A26C8;
+Reference = X1;
+ValeurCmp = 24MHz;
+IdModule  = Crystal_HC-49U_Vert;
+EndCmp
+
+EndListe
