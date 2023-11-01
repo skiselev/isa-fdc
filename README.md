@@ -5,7 +5,7 @@ ISA Floppy Disk and Serial Controller
 
 ISA Floppy Disk and Serial Controller card provides one floppy disk interface supporting up to two floppy drives, an RS-232 serial interface, and a BIOS extension ROM.
 
-![ISA Floppy Disk and Serial Controller V0.9 Assembled Board](images/ISA_FDC-Assembled_Board-0.9-800px.jpg)
+![ISA Floppy Disk and Serial Controller V1.0 Assembled Board](images/ISA_FDC-Assembled_Board-1.0-800px.jpg)
 
 ## Specifications
 
@@ -25,9 +25,9 @@ ISA Floppy Disk and Serial Controller card provides one floppy disk interface su
 
 ### Schematic and PCB Layout
 
-[Schematic - Version 0.9](KiCad/ISA_FDC-Schematic-0.9.pdf)
+[Schematic - Version 1.0](KiCad/ISA_FDC-Schematic-1.0.pdf)
 
-[PCB Layout - Version 0.9](KiCad/ISA_FDC-Board-0.9.pdf)
+[PCB Layout - Version 1.0](KiCad/ISA_FDC-Board-1.0.pdf)
 
 ### Configuration Switches and Jumpers
 
@@ -179,6 +179,11 @@ The ISA Floppy Disk and Serial Controller card implements three independent func
 
 ## Changes
 
+### Version 1.0
+
+* Fixed all the errata from the 0.9 prototype version
+* Changed description of SW2.3 - SW2.7 on the back silk screen. Now it lists ROM start addresses instead of address bits
+
 ### Version 0.9
 
 * Prototype version
@@ -189,6 +194,10 @@ The ISA Floppy Disk and Serial Controller card implements three independent func
 ### All versions
 
 * IBM AT BIOS can throw error 601 during POST if the original IBM Fixed Disk and Diskette Drive Adapter is not installed or replaced with another floppy disk controller. The system will boot and work normally after pressing F1
+
+### Version 1.0
+
+* Cut and paste error in 0E0000h-0E6000h switch description. SW2.3 should be OFF (0) instead of ON (1).
 
 ### Version 0.9
 

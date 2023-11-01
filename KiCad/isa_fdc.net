@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/27/2012 3:29:06 PM
+# EESchema Netlist Version 1.1 created  12/18/2012 12:44:15 AM
 (
  ( /508DEF42 Conn_Bus_ISA8 BUS1 BUSPC_DEV
   ( 1 GND )
@@ -138,11 +138,11 @@
  ( /501A264E Hole_3mm HOLE2 CONN_1
   ( 1 GND )
  )
- ( /509370D9 PIN_ARRAY_2X1_NOKEY JP1 PS/2_FLOPPY
+ ( /509370D9 Conn_Pin_Header_2x1_Nokey JP1 PS/2_FLOPPY
   ( 1 VCC )
   ( 2 /FLOPPY_VCC )
  )
- ( /501A26B8 PIN_ARRAY_17x2 P1 FLOPPY
+ ( /501A26B8 Conn_Pin_Header_17x2_Shroud P1 FLOPPY
   ( 1 GND )
   ( 2 /DENSL )
   ( 3 /FLOPPY_VCC )
@@ -189,7 +189,7 @@
   ( 8 /CTS )
   ( 9 /RI )
  )
- ( /508DF3A5 SIL-10 RR1 10k
+ ( /508DF3A5 Conn_SIL-10 RR1 10k
   ( 1 VCC )
   ( 2 /~ROM_CS )
   ( 3 /~ROMW )
@@ -201,7 +201,7 @@
   ( 9 ? )
   ( 10 /RDY/~BUSY )
  )
- ( /501A26C0 SIL-6 RR2 1k
+ ( /501A26C0 Conn_SIL-6 RR2 1k
   ( 1 VCC )
   ( 2 /INDEX )
   ( 3 /TRK00 )

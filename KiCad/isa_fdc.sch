@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/27/2012 11:30:08 PM
+EESchema Schematic File Version 2  date 12/18/2012 8:06:18 PM
 LIBS:74ls-sergey
 LIBS:dallas-rtc
 LIBS:devices-sergey
@@ -43,7 +43,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Sergey's XT (C) 2010 Sergey Kiselev, GNU Free Documentation License (GFDL)"
-Date "27 nov 2012"
+Date "19 dec 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1923,7 +1923,7 @@ F 1 "VCC" H 1000 1400 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6050 8350 0    60   ~ 0
-SW1.1 - ON: Set UART address to 0x2E8 (COM4)\nSW1.2 - ON: Set UART address to 0x3E8 (COM3)\nSW1.3 - ON: Set UART address to 0x2F8 (COM2)\nSW1.4 - ON: Set UART address to 0x3F8 (COM1)\nSW1.5 - ON: Use IRQ3 for UART (COM2, COM4)\nSW1.6 - ON: Use IRQ4 for UART (COM1, COM3)\nSW1.7 - ON: Use IRQ5 for UART\nSW1.8 - ON: Use IRQ7 for UART\n\nSW2.1 - ON: Enable EEPROM\nSW2.2 - ON: Enable EEPROM write\nSW2.3 - ON: ROM A17 = 0; OFF: ROM A17 = 1\nSW2.4 - ON: ROM A16 = 0; OFF: ROM A16 = 1\nSW2.5 - ON: ROM A15 = 0; OFF: ROM A15 = 1\nSW2.6 - ON: ROM A14 = 0; OFF: ROM A14 = 1\nSW2.7 - ON: ROM A13 = 0; OFF: ROM A13 = 1\nSW2.8 - NOT USED\n\n
+SW1.1 - ON: Use IRQ3 for UART (COM2, COM4)\nSW1.2 - ON: Use IRQ4 for UART (COM1, COM3)\nSW1.3 - ON: Use IRQ5 for UART\nSW1.4 - ON: Use IRQ7 for UART\nSW1.5 - ON: Set UART address to 0x2E8 (COM4)\nSW1.6 - ON: Set UART address to 0x3E8 (COM3)\nSW1.7 - ON: Set UART address to 0x2F8 (COM2)\nSW1.8 - ON: Set UART address to 0x3F8 (COM1)\n\nSW2.1 - ON: Enable ROM\nSW2.2 - ON: Enable EEPROM write\nSW2.3 - ON: ROM A17 = 0; OFF: ROM A17 = 1\nSW2.4 - ON: ROM A16 = 0; OFF: ROM A16 = 1\nSW2.5 - ON: ROM A15 = 0; OFF: ROM A15 = 1\nSW2.6 - ON: ROM A14 = 0; OFF: ROM A14 = 1\nSW2.7 - ON: ROM A13 = 0; OFF: ROM A13 = 1\nSW2.8 - NOT USED\n\n
 Text Notes 6825 8200 0    120  ~ 0
 Settings
 $Comp
