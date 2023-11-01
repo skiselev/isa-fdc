@@ -5,7 +5,7 @@ ISA Floppy Disk and Serial Controller
 
 ISA Floppy Disk and Serial Controller card provides one floppy disk interface supporting up to two floppy drives, an RS-232 serial interface, and a BIOS extension ROM.
 
-![ISA Floppy Disk and Serial Controller V0.9 Assembled Board](images/ISA_FDC-Board-0.9-800px.jpg)
+![ISA Floppy Disk and Serial Controller V0.9 Assembled Board](images/ISA_FDC-Assembled_Board-0.9-800px.jpg)
 
 ## Specifications
 
