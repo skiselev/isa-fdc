@@ -123,7 +123,7 @@ IC Socket          | U4        | 28 pin 600 mil (wide) DIP socket               
 IC Socket          | U6, U7    | 16 pin 300 mil DIP socket                                 | 2        | Mouser 517-4816-3000-CP. Note: U6 and U7 sockets are required for the serial port and FDC functions
 IC Socket          | U8        | 4 pin 300 mil full size oscillator socket                 | 1        | Mouser 535-1107741. Note: U8 socket is only required for the serial port function
 Crystal            | X1        | 24 MHz, 12 pF crystal                                     | 1        | Mouser 774-ATS240C. Note: X1 is only required for FDC function
-Bracket            |           | ISA card bracket - Keystone 9200-1 (with DE9 cut out) for cards with serial port function, Keystone 9202 (with ears mounting), for cards without serial port function | 1 | Mouser 534-9200-1 - For cards with serial port function / with P2 connector; Mouser 534-9202 - For cards without serial port function / without P2 connector
+Bracket            |           | ISA card bracket - Keystone 9200-1 (with DE9 cut out) for cards with serial port function, Keystone 9202 (with ears mounting), for cards without serial port function | 1 | Mouser 534-9200-1 - For cards with serial port function / with P2 connector, or a [3D printed bracket](https://www.thingiverse.com/thing:6473572); Mouser 534-9202 - For cards without serial port function / without P2 connector
 Screw              |           |  Screw, 4-40 thread, 1/4" length                          | 2        | Mouser 534-9900
 
 #### Component Selection and Substitution
